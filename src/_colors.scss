@@ -1,0 +1,21 @@
+:root {
+  --text-active: hsl(220, 98%, 61%);
+  --gradient: linear-gradient(135deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  --text-title: hsl(0, 0%, 98%);
+  --text-secondary: rgb(182, 182, 182);
+  --text-complete: hsl(236, 33%, 92%);
+}
+
+.app.darkTheme {
+  --bg: hsl(233, 11%, 84%);
+  --bg-card: hsl(236, 33%, 92%);
+  --text-todo: rgb(182, 182, 182);
+  --Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+}
+
+.app.lightTheme {
+  --bg: hsl(235, 21%, 11%);
+  --bg-card: hsl(235, 24%, 19%);
+  --text-todo: rgb(182, 182, 182);
+  --Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+}
