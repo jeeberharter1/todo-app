@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todo-app/static/css/main.90c24bf4.css",
+    "main.js": "/todo-app/static/js/main.53640999.js",
+    "static/media/bg-desktop-light.jpg": "/todo-app/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
+    "static/media/bg-desktop-dark.jpg": "/todo-app/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
+    "index.html": "/todo-app/index.html",
+    "main.90c24bf4.css.map": "/todo-app/static/css/main.90c24bf4.css.map",
+    "main.53640999.js.map": "/todo-app/static/js/main.53640999.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c24bf4.css",
+    "static/js/main.53640999.js"
+  ]
+}
