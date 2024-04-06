@@ -1,0 +1,32 @@
+:root {
+  --text-active: hsl(220, 98%, 61%);
+  --gradient-check: linear-gradient(135deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  --gradient-plus: linear-gradient(135deg, hsl(120, 100%, 47%), hsl(128, 100%, 12%));
+  --text-title: white;
+}
+
+.app.darkTheme {
+  --bg: hsl(235, 21%, 11%);
+  --bg-card: hsl(235, 24%, 19%);
+  --text-todo: hsl(236, 33%, 92%);
+  --text-secondary: rgba(88,90,113,255);
+  --text-complete: rgba(101,103,126,255);
+
+  --bg-img-mobile: url('../public/bg-mobile-dark.jpg');
+  --bg-img-desktop: url('../public/bg-desktop-dark.jpg');
+
+  --filter: brightness(0) saturate(100%) invert(13%) sepia(5%) saturate(3727%) hue-rotate(198deg) brightness(103%) contrast(94%);
+}
+
+.app.lightTheme {
+  --bg: hsl(0, 0%, 98%);
+  --bg-card: white;
+  --text-todo: rgba(85,85,95,255);
+  --text-secondary: rgba(198,197,202,255);
+  --text-complete: rgba(212,213,217,255);
+  
+  --bg-img-mobile: url('../public/bg-mobile-light.jpg');
+  --bg-img-desktop: url('../public/bg-desktop-light.jpg');
+  
+  --filter: invert(0);
+}

@@ -1,10 +1,10 @@
-@import '../../colors';
+@import '../../themes';
 
 .todo-card {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: white;
+  background-color: var(--bg-card);
   border-radius: 10px;
   width: 100%;
   padding: 1.25rem 1.5rem;
@@ -22,7 +22,7 @@
     justify-content: center;
     
     &.checked {
-      background: var(--gradient);
+      background: var(--gradient-check);
       border: none;
     }
 
@@ -40,7 +40,7 @@
 
     .strike {
       text-decoration: line-through;
-      color: rgb(211, 211, 211);
+      color: var(--text-complete);
     }
 
     .cross__container {

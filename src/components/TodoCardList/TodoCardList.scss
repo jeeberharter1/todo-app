@@ -1,10 +1,10 @@
-@import '../../colors';
+@import '../../themes';
 
 .todo-container {
   width: 100%;
 
   .todo-card-list {
-    background-color: white;
+    background-color: var(--bg-card);
     display: flex;
     flex-direction: column;
     border-radius: 10px;

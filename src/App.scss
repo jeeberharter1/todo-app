@@ -1,4 +1,4 @@
-@import 'responsive.scss', 'colors.scss';
+@import 'responsive.scss', 'themes.scss';
 
 .app {
   height: 100lvh;
@@ -7,8 +7,7 @@
   flex-direction: column;
   position: relative;
   padding: 0 2rem;
-  background-color: var(--Very-Dark-Blue);
-  z-index: -1;
+  background-color: var(--bg);
 
   .header,
   .main,
@@ -33,10 +32,10 @@
       top: 0;
       left: 0;
       object-fit: cover;
-      content: url('../public/bg-mobile-light.jpg');
+      content: var(--bg-img-mobile);
       
       @include lg {
-        content: url('../public/bg-desktop-light.jpg');
+        content: var(--bg-img-desktop);
       }
     }
 
