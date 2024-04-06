@@ -3,7 +3,10 @@ import './TodoCard.scss';
 const TodoCard = ({ todo, handleDelete, handleComplete }) => {
   return (
     <div className="todo-card">
-      <div className={todo.completed ? "check__container checked" : "check__container"} onClick={() => handleComplete(todo.id)} >
+      <div 
+        className={todo.completed ? "check__container checked" : "check__container"} 
+        onClick={() => handleComplete(todo.id)}
+      >
         {todo.completed && <img src='icon-check.svg' alt='X' />}
       </div>
       <div className="content__container">

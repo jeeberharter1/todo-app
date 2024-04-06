@@ -2,14 +2,17 @@
 
 .todo-container {
   width: 100%;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 
   .todo-card-list {
     background-color: var(--bg-card);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 5px 19px -12px rgba(0,0,0,0.3); 
-    box-shadow: 0px 5px 19px -12px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 5px 19px -12px var(--shadow); 
+    box-shadow: 0px 5px 19px -12px var(--shadow);
     margin-bottom: 1.5rem;
   
     hr {

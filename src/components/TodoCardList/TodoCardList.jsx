@@ -73,7 +73,11 @@ const TodoCardList = () => {
 
       <div className='todo-card-list'>
         {todos.map((todo, index) => {
-          if (filter === 'all' || (filter === 'active' && !todo.completed) || (filter === 'completed' && todo.completed))
+          if 
+            (filter === 'all' || 
+            (filter === 'active' && !todo.completed) || 
+            (filter === 'completed' && todo.completed)
+          )
           return (
             <>
               <TodoCard 

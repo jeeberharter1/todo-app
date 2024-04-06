@@ -11,6 +11,7 @@
   --text-todo: hsl(236, 33%, 92%);
   --text-secondary: rgba(88,90,113,255);
   --text-complete: rgba(101,103,126,255);
+  --shadow: rgba(0,0,0,1);
 
   --bg-img-mobile: url('../public/bg-mobile-dark.jpg');
   --bg-img-desktop: url('../public/bg-desktop-dark.jpg');
@@ -22,8 +23,9 @@
   --bg: hsl(0, 0%, 98%);
   --bg-card: white;
   --text-todo: rgba(85,85,95,255);
-  --text-secondary: rgba(198,197,202,255);
+  --text-secondary: rgba(171, 171, 171, 255);
   --text-complete: rgba(212,213,217,255);
+  --shadow: rgba(0,0,0,0.3);
   
   --bg-img-mobile: url('../public/bg-mobile-light.jpg');
   --bg-img-desktop: url('../public/bg-desktop-light.jpg');

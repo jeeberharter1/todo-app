@@ -14,16 +14,17 @@ function App() {
       <header className="header">
         <img src="bg-mobile-light.jpg" alt="" className='background' />
         <h1 className="header__title">todo</h1>
-        <img src={darkTheme ? 'icon-sun.svg' : 'icon-moon.svg'} alt="dark mode" onClick={toggleTheme} className='themeToggle' />
+        <img 
+          src={darkTheme ? 'icon-sun.svg' : 'icon-moon.svg'} 
+          alt="dark mode" 
+          onClick={toggleTheme} 
+          className='themeToggle' 
+        />
       </header>
 
       <main className="main">
         <TodoCardList />
       </main>
-
-      <footer className="footer">
-        <span className="footer__drag">Drag and drop to reorder list</span>
-      </footer>
     </div>
   );
 }
