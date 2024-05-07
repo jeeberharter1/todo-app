@@ -7,9 +7,15 @@ const CreateTodo = ({ todos, setTodos }) => {
   function handleKeyDown(e) {
     if (e.keyCode === 13) {
       if (text !== '') {
-        setTodos(
-          [...todos, { id: todos[todos.length - 1].id + 1, title: text, completed: false }]
-        );
+        if (todos.length !== 0) {
+          setTodos(
+            [...todos, { id: todos[todos.length - 1].id + 1, title: text, completed: false }]
+          );
+        } else {
+          setTodos(
+            [...todos, { id: 0, title: text, completed: false }]
+          ) 
+        }
         setText('');
       }
     }
